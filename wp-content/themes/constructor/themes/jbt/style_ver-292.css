@@ -1,0 +1,287 @@
+/*
+Theme Name: JBT
+Theme URI: http://afrique-a-velo.jeremiebt.com
+Description: Thème du blog de voyage en Afrique de JBT
+Version: 1.01
+Author: David Clabaut
+Author URI: http://figopedia.fr
+*/
+#footer {
+   /*height:100px;*/
+}
+#footer .copy {color: #cc7000;}
+#container {background:url('/wp-content/themes/constructor/themes/jbt/trace2.png') repeat-y -200px 21px;margin-top: 25px;overflow:auto;min-height:650px;height:450px;border-left:0px;margin-left:200px}
+.sidebar {margin-top:41px;}
+#menu li {margin: 5px ; }
+#content {margin-top:20px;}
+.list .title {background-color:transparent;}
+.title {background: no-repeat scroll 0 0 transparent; line-height:1.6;}
+.hentry .title h1 {line-height:1.6;}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*  CSS FOR TOP MENU */
+#menu li:hover  {background-color:transparent;}
+#menu li.accueil a { 
+    display: block ; 
+    background: url(/wp-content/themes/constructor/themes/jbt/01_Accueil.png) right top no-repeat ; 
+    font: 1em "Trebuchet MS",Arial,sans-serif ; 
+    line-height: 1em ; 
+height:75px; width:121px;text-indent: -5000px;
+    padding: 0px; 
+    text-align: center ; 
+margin:0px auto;
+    }     
+#menu li.accueil  a:hover { 
+    background: url(/wp-content/themes/constructor/themes/jbt/01_Accueil.png) right bottom no-repeat ; 
+    }
+
+#menu li.contact a { 
+    display: block ; 
+    background: url(/wp-content/themes/constructor/themes/jbt/06_Contact-Newsletter.png) right top no-repeat ; 
+    font: 1em "Trebuchet MS",Arial,sans-serif ; 
+    line-height: 1em ; 
+height:75px; width:136px;text-indent: -5000px;
+    padding: 0px ; 
+    text-align: center ; margin:0px auto;
+    }     
+#menu li.contact a:hover { 
+    background: url(/wp-content/themes/constructor/themes/jbt/06_Contact-Newsletter.png) right bottom no-repeat ; 
+background-color:none;
+    }
+
+#menu li.itineraire a { 
+    display: block ; 
+    background: url(/wp-content/themes/constructor/themes/jbt/05_Itineraire.png) right top no-repeat ; 
+    font: 1em "Trebuchet MS",Arial,sans-serif ; 
+    line-height: 1em ; 
+height:75px; width:159px;text-indent: -5000px;
+    padding: 0px  ; 
+    text-align: center ; margin:0px auto;
+    }     
+#menu li.itineraire a:hover { 
+    background: url(/wp-content/themes/constructor/themes/jbt/05_Itineraire.png) right bottom no-repeat ; 
+    }
+#menu li.liens a { 
+    display: block ; 
+    background: url(/wp-content/themes/constructor/themes/jbt/07_Liens.png) right top no-repeat ; 
+    font: 1em "Trebuchet MS",Arial,sans-serif ; 
+    line-height: 1em ; 
+height:75px; width:104px;text-indent: -5000px;
+    padding: 0px ; 
+    text-align: center ; margin:0px auto;
+    }     
+#menu li.liens a:hover { 
+    background: url(/wp-content/themes/constructor/themes/jbt/07_Liens.png) right bottom no-repeat ; 
+    }
+#menu li.materiel a { 
+    display: block ; 
+    background: url(/wp-content/themes/constructor/themes/jbt/03_Materiel.png) right top no-repeat ; 
+    font: 1em "Trebuchet MS",Arial,sans-serif ; 
+    line-height: 1em ; 
+height:75px; width:146px;text-indent: -5000px;
+    padding: 0px ; 
+    text-align: center ; margin:0px auto;
+    }     
+#menu li.materiel a:hover { 
+    background: url(/wp-content/themes/constructor/themes/jbt/03_Materiel.png) right bottom no-repeat ; 
+    }
+#menu li.preparatifs a { 
+    display: block ; 
+    background: url(/wp-content/themes/constructor/themes/jbt/04_Preparatifs.png) right top no-repeat ; 
+    font: 1em "Trebuchet MS",Arial,sans-serif ; 
+    line-height: 1em ; 
+height:75px; width:159px;text-indent: -5000px;
+    padding: 0px  ; 
+    text-align: center ; margin:0px auto;
+    }     
+#menu li.preparatifs a:hover { 
+    background: url(/wp-content/themes/constructor/themes/jbt/04_Preparatifs.png) right bottom no-repeat ; 
+    }
+#menu li.projet a { 
+    display: block ; 
+    background: url(/wp-content/themes/constructor/themes/jbt/02_Projet.png) right top no-repeat ; 
+    font: 1em "Trebuchet MS",Arial,sans-serif ; 
+    line-height: 1em ; 
+height:75px; width:115px;text-indent: -5000px;
+    padding: 0px  ; 
+    text-align: center ; margin:0px auto;
+    }     
+#menu li.projet a:hover { 
+    background: url(/wp-content/themes/constructor/themes/jbt/02_Projet.png) right bottom no-repeat ; 
+background-color:none;
+    }
+
+#comments {color:#fdd18d; margin: 8px;}
+.commentlist a {color:#000000;}
+.list .title h2 a {color:#dedede;}
+#commentform textarea {color:#000000;}
+#commentform input {color:#000000;}
+input, select, textarea {color:#000000;}
+.hentry .entry img  { margin: 5px;}
+.title h1 {padding:0 12px;color:#dedede;}
+
+/*--CUSTOM HOME TILES --*/
+#custom_home {padding:0 10px;}
+#custom_home .tile {
+background: no-repeat 0 0 transparent;
+clear:none;
+float:left;
+height:212px;
+margin:0 8px 5px;
+position:relative;
+width:134px;
+}
+#custom_home .tile .title {
+left:2px;
+margin:0;
+padding:0 6px;
+position:absolute;
+text-align:left;
+top:2px;
+width:130px;
+z-index:10;
+}
+#custom_home .tile .thumbnail {
+top:95px;
+margin:0px 13px;
+position:absolute;
+width:100px;
+z-index:0;
+}
+#custom_home .tile h4{margin:8px 10px;}
+#custom_home .tile h4 a{color:#F8D473;}
+#custom_home .date {margin:0px 10px;color:#F8D473;}
+#custom_home .title h1 {color:#EECE6E;}    /*  ----   Couleur du titre de bienvenu   ---- Fred - 08/06/2010 */
+
+
+/* ------ Post - CSS modifiée pour les textes -------------------------------------- Fred - 08/06/2010 */
+#posts {
+    padding:10px;
+    overflow:hidden
+}
+.hentry {
+    clear:both;
+    position:relative;
+    width:100%;
+    margin:0 0 10px 0
+}
+.hentry .title h1,
+.hentry .title h2,
+.hentry .title h3 {
+    margin:0;
+    font-weight:700 !important;
+    font-size:2em;
+    line-height:1.6em;
+}
+.hentry .title h1 a,
+.hentry .title h2 a{
+    display:block;
+    padding:0px 12px;
+    color:#EECE6E;     /* Couleur des titres des articles et pages */
+}
+
+.hentry .title, .pagetitle {color:#cc7000;
+    margin-bottom: 8px;
+}
+.hentry .entry {
+    font-size:1.3em;
+    line-height:1.2em;
+    padding:4px;
+}
+.hentry .entry h1,
+.hentry .entry h2,
+.hentry .entry h3,
+.hentry .entry h4,
+.hentry .entry h5,
+.hentry .entry h6,
+.hentry .entry ul,
+.hentry .entry ol {
+    margin:1.4em 0 0 0;
+}
+.hentry .entry ul,
+.hentry .entry ol {
+    margin:0.8em 0 0 2.2em;
+} 
+.hentry .entry p{
+    text-indent:0px;
+    margin:0.8em 0 0 0.6em;
+}
+.hentry .entry .crop,
+.hentry .entry img {
+    padding:4px;
+    border-style:solid;
+    border-width:0px;
+}
+
+.hentry .entry img.alignleft {
+    margin: 0 4px 4px 0
+}
+
+.hentry .entry img.alignright {
+    margin: 0 4px 0 4px
+}
+
+.hentry .entry ol,
+.hentry .entry ul {
+    padding-left:20px
+}
+
+.hentry .entry li ol,
+.hentry .entry li ul {
+    padding-left:6px
+}
+
+.hentry .entry ul {
+    list-style:circle
+}
+
+.hentry .entry li {
+    padding:2px;
+}
+.hentry .pages {
+    font-size:1.4em
+}
+.hentry .more-link {
+
+}
+.hentry .footer {
+    overflow:hidden;
+    clear:both
+}
+.hentry .footer .links {
+    float:right
+}
+.hentry .footer .line {
+    clear:both
+}
+/* for big external images */
+.hentry .crop {
+	position:relative;
+    overflow:hidden;
+}
+.hentry .crop img {
+    position:absolute;
+	border:0;
+	padding:0;
+}
+/*
+     FILE ARCHIVED ON 11:39:02 Apr 05, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:20:46 Dec 12, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 86.41 (3)
+  esindex: 0.009
+  captures_list: 102.237
+  CDXLines.iter: 10.666 (3)
+  PetaboxLoader3.datanode: 119.823 (4)
+  exclusion.robots: 0.466
+  exclusion.robots.policy: 0.447
+  RedisCDXSource: 2.275
+  PetaboxLoader3.resolve: 36.412
+  load_resource: 94.089
+*/

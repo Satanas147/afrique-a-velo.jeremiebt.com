@@ -1,0 +1,90 @@
+/*  
+Theme Name: Constructor
+Stylesheet: Mobile
+*/
+body {
+	zoom:200%;
+    width:100% !important;
+
+}
+#header, #content, #footer {
+    width:100% !important;
+    max-width:480px !important;
+}
+
+#wrapheader,#wrapcontent,#wrapfooter {
+    /*background-image:none !important;*/
+}
+
+#menu {
+    display:none;
+    width:100% !important;
+    bottom:auto !important;
+    top:0 !important;
+    position:fixed !important;
+}
+#content {
+    border:0 !important;
+}
+    #container {
+        width:100% !important;
+        margin:0 !important;
+        padding:0 !important;
+        border:0 !important;
+        box-shadow:none !important;
+        -moz-box-shadow:none !important;
+        -webkit-box-shadow:none !important;
+    }
+    #posts {
+        margin:0 10px;
+        padding:0 !important;
+    }
+        .hentry .title{
+            border:0 !important;
+            margin-bottom:0;
+            font-size:200%;
+        }
+            .hentry .title a {
+                padding:0px;
+            }
+        .hentry .entry{
+            font-size:200%;
+            line-height:100%;
+        }
+        .hentry .footer{
+            height:auto;
+            background-image:none !important;
+        }
+    
+    #sidebar, #extra {
+        margin-left:0 !important;
+    }
+    
+    #slideshow {
+        display:none;
+    }
+    
+.box {
+    border:0 !important;
+}
+/*
+     FILE ARCHIVED ON 15:23:06 Apr 01, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:20:29 Dec 12, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 305.676 (3)
+  esindex: 0.009
+  captures_list: 321.736
+  CDXLines.iter: 11.392 (3)
+  PetaboxLoader3.datanode: 305.513 (4)
+  exclusion.robots: 0.385
+  exclusion.robots.policy: 0.363
+  RedisCDXSource: 1.387
+  PetaboxLoader3.resolve: 17.412
+  load_resource: 63.633
+*/
